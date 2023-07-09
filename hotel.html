@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="container-time">
+            <h2 class="heading">HOTEL BOOKING REGISTRATION Form</h2>
+            <img src="C:\Users\user\Pictures\Saved Pictures\download (3).jpg"
+             width="200" height="500">
+        </div>
+
+        <div class="container-form">
+            <form action="#">
+                <h2 class="heading heading-yellow">Customer Information</h2>
+
+                <div class="form-field">
+                    <p>Customer Name</p>
+                    <input type="text" placeholder="Your Name">
+                </div>
+
+                <div class="form-field">
+                    <p>Check-In-Date</p>
+                    <input type="Date">
+                </div>
+
+                <div class="form-field">
+                    <p>Total-No-Of-Days</p>
+                    <input type="days" placeholder="0">
+                </div>
+
+                <div class="form-field">
+                    <p>Total-No-Of-Persons</p>
+                    <input type="persons" placeholder="0">
+                </div>
+
+                <div class="form-field">
+                    <p>Room Information:</p><br>
+                    <p>Room Type</p>
+                    <select name="select" id="#">
+                        <option value="1">Select</option>
+                        <option value="1">Delux</option>
+                        <option value="2">Suite</option>
+                        <option value="3">AC</option>
+                        <option value="4">Locker</option>
+                        <option value="5">Normal</option>
+                    </select>
+                </div>
+                <div class="form-field">
+                    <p>Amenities</p>
+                   <input type="checkbox">AC
+                   <input type="checkbox">Locker
+                </div>
+                <div class="form-field">
+                    <p>Room Rate</p><br>
+                    <select name="select" id="#">
+                        <option value="1">2500/-(Delux)</option>
+                        <option value="1">4000/-(Suite)</option>
+                        <option value="2">1000/-(AC)</option>
+                        <option value="3">300/-(Locker)</option>
+                    </select>
+                </div>
+                <div class="form-field">
+                    <p>Advance Payment</p>
+                    <input type="persons" placeholder="Advance Amount(mandatory)">
+                </div>
+                <button class="btn"onclick="myFunction()">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <script>
+               function myFunction() {
+               alert("Enter Complete Details");
+}
+window.alert("Welcome To Hotel Booking Registration....");
+
+    </script>
+</body>
+</html>
